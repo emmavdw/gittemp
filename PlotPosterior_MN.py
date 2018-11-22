@@ -22,7 +22,7 @@ names = ['mass', 'radius', 'inclination', 'colatitude', 'spotradius',
              'temperature', 'elsewhere', 'phase', 'distance', 'compactness']
 
 # the hard bounds imposed above
-bounds = {'mass': (1.0, 2.6),
+bounds = {'mass': (1.0, 3.0),
           'radius': (8.0, 16.0),
           'inclination': (1.0 * math.pi / 180.0, 179.0 * math.pi / 180.0),
           'colatitude': (1.0 * math.pi / 180.0, 179.0 * math.pi / 180.0),
